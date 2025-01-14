@@ -1,6 +1,6 @@
 export default function Hero(){
     return (
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-white dark:bg-gray-900 mt-12">
         <img
           class="rounded-full w-36 h-36 mx-auto"
           src="src\assets\1678646983786.jpeg"
