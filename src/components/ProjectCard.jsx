@@ -10,15 +10,15 @@ export default function ProjectCard({
   technologies,
 }) {
   return (
-    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700  hover:border-blue-500 hover:shadow-lg">
-      <a href="#">
+    <div className="w-[380px] h-[600px] bg-white rounded-lg border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col hover:border-blue-500 hover:shadow-2xl">
+      <a href="#" className="h-[200px]">
         <img
-          className="rounded-t-lg"
+          className="object-cover w-full h-full rounded-t-lg"
           src={imageUrl || "/docs/images/blog/image-1.jpg"}
           alt={title}
         />
       </a>
-      <div className="p-5">
+      <div className="flex flex-col flex-grow p-5">
         <a href="#">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {title}
@@ -34,10 +34,10 @@ export default function ProjectCard({
             </span>
           ))}
         </div>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className="overflow-y-auto flex-grow mb-3 font-normal text-gray-700 dark:text-gray-400">
           {description}
         </p>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-center mt-auto">
           <a
             href={liveUrl}
             target="_blank"
