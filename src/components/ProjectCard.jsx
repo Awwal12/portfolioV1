@@ -10,7 +10,7 @@ export default function ProjectCard({
   technologies,
 }) {
   return (
-    <div className="w-[380px] h-[600px] bg-white rounded-lg border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col hover:border-blue-500 hover:shadow-2xl">
+    <div className="w-[380px] h-[600px] bg-white rounded-lg border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col hover:border-blue-500 hover:shadow-2xl dark:hover:border-blue-500 dark:hover:shadow-sm dark:hover:shadow-white">
       <a href="#" className="h-[200px]">
         <img
           className="object-cover w-full h-full rounded-t-lg"
