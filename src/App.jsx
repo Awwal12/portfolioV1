@@ -6,13 +6,13 @@ import Contact from "./components/contact";
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Projects></Projects>
+    <div className="min-h-screen bg-white dark:bg-gray-900">
+      <Navbar />
+      <Hero />
+      <Projects />
       <About />
       <Contact />
-    </>
+    </div>
   );
 }
 
