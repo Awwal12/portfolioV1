@@ -26,7 +26,7 @@ export default function Projects() {
     {
       title: "Cashcard",
       description:
-        "The Family Cash Card REST API is a backend service designed to help parents manage allowances for their children. It enables parents to create, edit, delete, and track virtual cash cards, functioning like gift cards for easy fund management. Built with Spring Boot, the API ensures secure, efficient handling of data and provides endpoints for managing multiple cash cards while prioritizing user authentication and protection against unauthorized access.",
+        "A Spring Boot REST API for managing virtual cash cards, enabling parents to control and track children's allowances. Features secure authentication and comprehensive CRUD operations for card management.",
       imageUrl: "/path/to/image3.jpg",
       githubUrl: "https://github.com/Awwal12/cashcard",
       liveUrl: "https://project3-demo.com",
@@ -83,7 +83,7 @@ export default function Projects() {
   const displayedProjects = showAll ? projectsData : projectsData.slice(0, 6);
 
   return (
-    <section id="projects">
+    <section id="projects" className="bg-white dark:bg-gray-900">
       <div className="flex justify-evenly mx-auto">
         <hr className="my-8 w-8 h-8 bg-gray-200 rounded border-0 md:my-12 dark:bg-gray-700" />
         <hr className="my-8 w-8 h-8 bg-gray-200 rounded border-0 md:my-12 dark:bg-gray-700" />
@@ -94,7 +94,7 @@ export default function Projects() {
           <h1 className="mb-4 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
             Projects
           </h1>
-          <div className="p-8 mb-8 text-xl italic font-semibold text-justify text-gray-900 border dark:textborder-white hover:border-blue-500 hover:shadow-lg">
+          <div className="p-8 mb-8 text-xl italic font-semibold text-gray-900 border dark:text-gray-100 dark:border-gray-700 hover:border-blue-500 hover:shadow-lg dark:hover:border-blue-500">
             In this section, you'll find a showcase of my journey as a
             developer, where I've combined self-driven designs and
             collaborations with teams to bring ideas to life. From crafting
