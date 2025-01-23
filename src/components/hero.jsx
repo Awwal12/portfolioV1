@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="hero" className="mt-12 bg-white dark:bg-gray-900">
       <img
         className="mx-auto w-36 h-36 rounded-full"
-        src="src\assets\1678646983786.jpeg"
+        src="/assets/1678646983786.jpeg"
         alt="Awwal's photo"
       />
       <div className="px-4 py-8 mx-auto max-w-screen-xl text-center lg:py-16">
