@@ -1,6 +1,6 @@
 {
   "name": "portfoliov1",
-  "homepage": "https://Awwal12.github.io/portfoliov1",
+  "homepage": "https://Awwal12.github.io/portfolioV1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,10 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "flowbite-react": "^0.10.2",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.3"
